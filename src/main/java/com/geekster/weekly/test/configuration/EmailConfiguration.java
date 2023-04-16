@@ -12,7 +12,7 @@ public class EmailConfiguration {
 	@Bean("email")
 	Email getEmail() {
 
-		return new Email(EmailConstants.SENDER_EMAIL, "edwardmaya094@gmail.com", "Demo Mail",
+		return new Email(EmailConstants.SENDER_EMAIL, "recipient email", "Demo Mail",
 				"Hi Edward \n \n This is a demo mail. Do not reply. \n \n Thanks and Regards \n Mitesh");
 
 	}
