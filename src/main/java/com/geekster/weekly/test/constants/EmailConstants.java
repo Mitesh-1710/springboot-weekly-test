@@ -6,6 +6,6 @@ public class EmailConstants {
 		
 	}
 
-	public static final String SENDER_EMAIL = "mitesh.mayavanshi1710@gmail.com";
+	public static final String SENDER_EMAIL = "youremail";
 	
 }
